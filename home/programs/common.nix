@@ -28,5 +28,7 @@
 
     sway
     yazi
+
+    zk
   ];
 }

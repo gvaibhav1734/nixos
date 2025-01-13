@@ -14,7 +14,9 @@ Also serves as a reference for using NixOS with rclone, keepass and more.
 
 1. Boot NixOS on a new system with a USB stick and run the following command
     ```bash
-    nixos-install --flake https://github.com/gvaibhav1734/nixos#vivobook-s15
+    git clone https://github.com/gvaibhav1734/nixos
+    cd nixos
+    nixos-rebuild switch --flake .#<system>
     ```
 2. Login to Google Account on Zen browser (need this to authenticate gdrive in next step)
 3. Set up Rclone and configure `gdrive` remote

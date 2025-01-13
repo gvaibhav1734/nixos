@@ -32,6 +32,11 @@
         "num-workspaces" = 6;
       };
 
+      # lose hot corner
+      "org.gnome.desktop.interface" = {
+        "enable-hot-corners" = false;
+      };
+
       # move to workspace
       "org/gnome/desktop/wm/keybindings" = {
         "move-to-workspace-1" = ["<Super><Shift>1"];

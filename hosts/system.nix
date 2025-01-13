@@ -2,6 +2,7 @@
   pkgs,
   lib,
   username,
+  nix-alien,
   ... 
 }:
 {
@@ -93,6 +94,8 @@
     gnome-tweaks
     gnomeExtensions.space-bar
     gnomeExtensions.blur-my-shell
+
+    nix-alien
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
