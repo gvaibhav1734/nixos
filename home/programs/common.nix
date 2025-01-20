@@ -9,6 +9,7 @@
     zed-editor
     keeweb
     bruno
+    discord
 
     # For gdrive
     rclone
@@ -28,6 +29,7 @@
 
     sway
     yazi
+    zoxide
 
     zk
   ];
